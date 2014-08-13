@@ -43,4 +43,5 @@ Known Problems and Drawbacks
 
 Credits
 =======
-* 
+* Twitter's Getting Started (https://dev.twitter.com/start)
+* Twitter stream fetcher adapter from (https://github.com/uwescience/datasci_course_materials/tree/master/assignment1)
