@@ -1,0 +1,3 @@
+Name;SQL Data Type;Dimension;Column Store Data Type;Key;Not Null;Default;Comment
+ID;BIGINT;;FIXED;X(1);X;;GLOBALEVENTID
+RAWDATA;NVARCHAR;5000;STRING;;;;RAW DATA OF TWEET
