@@ -1,0 +1,10 @@
+table.schemaName = "DEMOUSER00";
+table.tableType = COLUMNSTORE; 
+table.description = "TWITTER Stream Data";
+
+table.columns = [
+	{name = "ID"; sqlType = BIGINT; nullable = false; comment = "ID"; },	
+	{name = "RAWDATA"; sqlType = NVARCHAR; nullable = true; length = 5000; comment = "RAW DATA OF TWEET"; }			 
+];
+
+table.primaryKey.pkcolumns = ["ID"];
