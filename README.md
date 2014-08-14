@@ -12,6 +12,7 @@ pip install oauth2
 Twitter Table Structure
 ====================================
 * To create table in SAP HANA script use following script 'twitter_stream.hdbtable'
+* To create sequence in SAP HANA script use following script 'seq_twitter_stream_id.hdbsequence'
 
 Credentials for the SAP HANA DB
 ======================================
@@ -19,7 +20,7 @@ Credentials for the SAP HANA DB
 * Copy-&gt;Paste code below and insert your credentials
 ```
 # Server 
-SERVER = <server>
+SERVER = '<server>'
 PORT = <port>
 
 # User Credentials
@@ -40,7 +41,7 @@ run.bat
 
 Known Problems and Drawbacks
 ============================
-*
+* Using only limited number of Twitter API
 
 Credits
 =======
